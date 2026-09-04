@@ -7,7 +7,7 @@ about:
   head: 4a5e632
   archived: false
   latestVersion: RELEASE_7_5
-  collectedAt: 2026-09-04T19:37:44Z
+  collectedAt: 2026-09-04T20:54:15Z
 timeline:
   created: 2017-09-29
   lastCommit: 2026-09-03
@@ -88,6 +88,89 @@ total:
   openIssue: 68
   commit: 6218
 ---
+path: /home/runner/.x-repo/github.com/smartmontools/smartmontools
+collectedAt: 2026-09-04T20:54:20Z
+loc:
+  Cpp:
+    code: 42189
+    comments: 5261
+    blanks: 5751
+    files: 44
+  CHeader:
+    code: 15149
+    comments: 4443
+    blanks: 2119
+    files: 53
+  C:
+    code: 8802
+    comments: 1492
+    blanks: 1027
+    files: 8
+  Autoconf:
+    code: 7625
+    comments: 398
+    blanks: 303
+    files: 16
+  VisualStudioProject:
+    code: 3945
+    comments: 0
+    blanks: 0
+    files: 8
+  Automake:
+    code: 1181
+    comments: 99
+    blanks: 245
+    files: 4
+  Sh:
+    code: 901
+    comments: 160
+    blanks: 146
+    files: 7
+  VisualStudioSolution:
+    code: 247
+    comments: 0
+    blanks: 1
+    files: 1
+  Batch:
+    code: 148
+    comments: 31
+    blanks: 31
+    files: 1
+  Bash:
+    code: 145
+    comments: 34
+    blanks: 37
+    files: 2
+  PowerShell:
+    code: 64
+    comments: 58
+    blanks: 20
+    files: 2
+  Html:
+    code: 26
+    comments: 0
+    blanks: 0
+    files: 1
+  Bitbake:
+    code: 1
+    comments: 107
+    blanks: 18
+    files: 1
+  Markdown:
+    code: 0
+    comments: 527
+    blanks: 184
+    files: 3
+  Text:
+    code: 0
+    comments: 10145
+    blanks: 3888
+    files: 13
+total:
+  code: 80423
+  comments: 22755
+  blanks: 13770
+  files: 164
 ---
 date: "2026-08-24"
 repo:

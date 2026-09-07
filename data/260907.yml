@@ -5,7 +5,7 @@ about:
   head: a214aa7
   archived: false
   latestVersion: "RELEASE_7_5"
-  collectedAt: 2026-09-07T03:53:48Z
+  collectedAt: 2026-09-07T20:04:27Z
 timeline:
   created: 2017-09-29
   lastCommit: 2026-09-05
@@ -87,7 +87,7 @@ total:
   commit: 6220
 ---
 path: /home/runner/.x-repo/github.com/smartmontools/smartmontools
-collectedAt: 2026-09-07T03:53:56Z
+collectedAt: 2026-09-07T20:04:40Z
 loc:
   Cpp:
     code: 42214
@@ -401,7 +401,7 @@ checks:
       - 'Warn: PRs are not required to make changes on branch ''main''; or we don''t have data to detect it.If you think it might be the latter, make sure to run Scorecard with a PAT or use Repo Rules (that are always public) instead of Branch Protection settings'
 ---
 eget:
-  collectedAt: 2026-09-07T03:53:56+00:00
+  collectedAt: 2026-09-07T20:04:44+00:00
   platform:
     darwin/arm64:
       name:  null

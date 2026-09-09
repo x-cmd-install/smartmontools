@@ -2,20 +2,20 @@ about:
   description: "2025-06-01: This is now the official upstream repository of smartmontools"
   license: GPL-2.0
   homepage: https://www.smartmontools.org/browser
-  head: ad1621b
+  head: 76e88da
   archived: false
   latestVersion: "RELEASE_7_5"
   latestRelease: "RELEASE_7_5"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T04:02:17Z
+  collectedAt: 2026-09-09T18:31:35Z
 timeline:
   created: 2017-09-29
-  lastCommit: 2026-09-08
+  lastCommit: 2026-09-09
   lastVersion: 2025-05-12
   lastRelease: 2025-05-12
   lastPrerelease: 
 popularity:
-  star: 1354
+  star: 1355
   watcher: 36
   fork: 282
   release: 10
@@ -24,7 +24,7 @@ popularity:
   issue: 399
 language:
   C++: 1998482
-  C: 864736
+  C: 865333
   Roff: 220673
   Shell: 88398
   Makefile: 52081
@@ -32,66 +32,66 @@ language:
   NSIS: 37654
   Batchfile: 6627
   PowerShell: 3769
-totalBytes: 3317428
+totalBytes: 3318025
 recent:
   last30d:
     since: 2026-08-10
     release: 0
     mergedPR: 0
-    openPR: 3
-    closedIssue: 5
-    openIssue: 4
-    commit: 28
+    openPR: 2
+    closedIssue: 8
+    openIssue: 1
+    commit: 34
   last60d:
     since: 2026-07-11
     release: 0
     mergedPR: 4
-    openPR: 3
-    closedIssue: 10
-    openIssue: 5
-    commit: 106
+    openPR: 2
+    closedIssue: 13
+    openIssue: 2
+    commit: 112
   last90d:
     since: 2026-06-11
     release: 0
     mergedPR: 11
-    openPR: 3
-    closedIssue: 16
-    openIssue: 9
-    commit: 125
+    openPR: 2
+    closedIssue: 19
+    openIssue: 6
+    commit: 131
   last180d:
     since: 2026-03-13
     release: 0
     mergedPR: 21
-    openPR: 5
-    closedIssue: 37
-    openIssue: 18
-    commit: 168
+    openPR: 4
+    closedIssue: 40
+    openIssue: 15
+    commit: 174
   last360d:
     since: 2025-09-14
     release: 0
     mergedPR: 79
-    openPR: 6
-    closedIssue: 112
-    openIssue: 32
-    commit: 413
+    openPR: 5
+    closedIssue: 115
+    openIssue: 29
+    commit: 419
   last720d:
     since: 2024-09-19
     release: 1
     mergedPR: 95
-    openPR: 6
-    closedIssue: 164
-    openIssue: 43
-    commit: 666
+    openPR: 5
+    closedIssue: 167
+    openIssue: 40
+    commit: 672
 total:
   release: 10
   mergedPR: 95
-  openPR: 11
-  closedIssue: 333
-  openIssue: 66
-  commit: 6223
+  openPR: 10
+  closedIssue: 336
+  openIssue: 63
+  commit: 6229
 ---
 path: /home/runner/.x-repo/github.com/smartmontools/smartmontools
-collectedAt: 2026-09-09T04:02:31Z
+collectedAt: 2026-09-09T18:31:46Z
 loc:
   Cpp:
     code: 42214
@@ -99,8 +99,8 @@ loc:
     blanks: 5753
     files: 44
   CHeader:
-    code: 15156
-    comments: 4443
+    code: 15163
+    comments: 4447
     blanks: 2121
     files: 53
   C:
@@ -169,8 +169,8 @@ loc:
     blanks: 3888
     files: 13
 total:
-  code: 80478
-  comments: 22761
+  code: 80485
+  comments: 22765
   blanks: 13774
   files: 164
 ---

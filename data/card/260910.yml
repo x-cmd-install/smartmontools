@@ -7,7 +7,7 @@ about:
   latestVersion: "RELEASE_7_5"
   latestRelease: "RELEASE_7_5"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T04:00:40Z
+  collectedAt: 2026-09-10T16:08:10Z
 timeline:
   created: 2017-09-29
   lastCommit: 2026-09-09
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2025-05-12
   lastPrerelease: 
 popularity:
-  star: 1356
+  star: 1357
   watcher: 36
   fork: 282
   release: 10
@@ -91,7 +91,7 @@ total:
   commit: 6229
 ---
 path: /home/runner/.x-repo/github.com/smartmontools/smartmontools
-collectedAt: 2026-09-10T04:00:49Z
+collectedAt: 2026-09-10T16:08:20Z
 loc:
   Cpp:
     code: 42214

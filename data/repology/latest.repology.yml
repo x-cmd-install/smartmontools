@@ -274,6 +274,17 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-or-later
+- repo: nix_stable_25_11
+  srcname: smartmontools
+  visiblename: smartmontools
+  version: "7.5"
+  origversion: null
+  status: newest
+  summary: Tools for monitoring the health of hard drives
+  maintainers:
+    - me@slukjanov.name
+  licenses:
+    - GPL-2.0-or-later
 - repo: alpine_3_20
   subrepo: main
   srcname: smartmontools
@@ -519,17 +530,6 @@
   summary: Control and monitor S.M.A.R.T. enabled hard drives (OpenRC init scripts)
   maintainers:
     - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_stable_25_11
-  srcname: smartmontools
-  visiblename: smartmontools
-  version: "7.5"
-  origversion: null
-  status: newest
-  summary: Tools for monitoring the health of hard drives
-  maintainers:
-    - me@slukjanov.name
   licenses:
     - GPL-2.0-or-later
 - repo: alpine_edge
@@ -836,20 +836,6 @@
     - GPLv2+
   categories:
     - System Environment/Base
-- repo: cygwin
-  srcname: smartmontools
-  binname: smartmontools
-  visiblename: smartmontools
-  version: "7.5"
-  origversion: 7.5-1
-  status: newest
-  summary: Control and monitor storage systems using SMART
-  maintainers:
-    - christian.franke@cygwin
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Utils
 - repo: centos_stream_9
   subrepo: BaseOS
   srcname: smartmontools
@@ -1127,6 +1113,20 @@
   summary: Utilities to control and monitor S.M.A.R.T. hard drives
   maintainers:
     - jue@crux.nu
+- repo: cygwin
+  srcname: smartmontools
+  binname: smartmontools
+  visiblename: smartmontools
+  version: "7.5"
+  origversion: 7.5-1
+  status: newest
+  summary: Control and monitor storage systems using SMART
+  maintainers:
+    - christian.franke@cygwin
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Utils
 - repo: cygwin
   srcname: smartmontools
   binname: smartmontools-debuginfo
@@ -2201,6 +2201,18 @@
     - jmtd@debian.org
   categories:
     - utils
+- repo: pkgsrc_2026_1
+  srcname: sysutils/smartmontools
+  binname: smartmontools
+  visiblename: sysutils/smartmontools
+  version: "7.4"
+  origversion: null
+  status: outdated
+  summary: Control and monitor storage systems using SMART
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
 - repo: openmamba
   subrepo: base
   srcname: smartmontools
@@ -2461,18 +2473,6 @@
     - GPLv2+
   categories:
     - app:console
-- repo: pkgsrc_2026_1
-  srcname: sysutils/smartmontools
-  binname: smartmontools
-  visiblename: sysutils/smartmontools
-  version: "7.4"
-  origversion: null
-  status: outdated
-  summary: Control and monitor storage systems using SMART
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
 - repo: pkgsrc_2026_2
   srcname: sysutils/smartmontools
   binname: smartmontools
@@ -2892,20 +2892,6 @@
   categories:
     - utils
 - repo: ubuntu_14_04
-  subrepo: trusty/main
-  srcname: smartmontools
-  binnames:
-    - smartmontools
-  visiblename: smartmontools
-  version: 6.2+svn3841
-  origversion: 6.2+svn3841-1.2
-  status: outdated
-  maintainers:
-    - iuculano@debian.org
-    - contact@marsmenschen.com
-  categories:
-    - utils
-- repo: ubuntu_14_04
   subrepo: trusty-updates/main
   srcname: smartmontools
   binnames:
@@ -2919,19 +2905,18 @@
     - contact@marsmenschen.com
   categories:
     - utils
-- repo: ubuntu_16_04
-  subrepo: xenial-updates/main
+- repo: ubuntu_14_04
+  subrepo: trusty/main
   srcname: smartmontools
   binnames:
     - smartmontools
   visiblename: smartmontools
-  version: 6.4+svn4214
-  origversion: 6.4+svn4214-1ubuntu0.1
+  version: 6.2+svn3841
+  origversion: 6.2+svn3841-1.2
   status: outdated
   maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
+    - iuculano@debian.org
     - contact@marsmenschen.com
-    - jmtd@debian.org
   categories:
     - utils
 - repo: ubuntu_16_04
@@ -2945,6 +2930,21 @@
   status: outdated
   maintainers:
     - iuculano@debian.org
+    - contact@marsmenschen.com
+    - jmtd@debian.org
+  categories:
+    - utils
+- repo: ubuntu_16_04
+  subrepo: xenial-updates/main
+  srcname: smartmontools
+  binnames:
+    - smartmontools
+  visiblename: smartmontools
+  version: 6.4+svn4214
+  origversion: 6.4+svn4214-1ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - contact@marsmenschen.com
     - jmtd@debian.org
   categories:
@@ -3010,13 +3010,13 @@
   categories:
     - utils
 - repo: ubuntu_22_04
-  subrepo: jammy/main
+  subrepo: jammy-updates/main
   srcname: smartmontools
   binnames:
     - smartmontools
   visiblename: smartmontools
   version: "7.2"
-  origversion: 7.2-1build2
+  origversion: 7.2-1ubuntu0.1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -3025,13 +3025,13 @@
   categories:
     - utils
 - repo: ubuntu_22_04
-  subrepo: jammy-updates/main
+  subrepo: jammy/main
   srcname: smartmontools
   binnames:
     - smartmontools
   visiblename: smartmontools
   version: "7.2"
-  origversion: 7.2-1ubuntu0.1
+  origversion: 7.2-1build2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -3136,7 +3136,7 @@
   status: newest
   summary: Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
   maintainers:
-    - fallback-mnt-vylen@repology
+    - wonkru-dev@proton.me
 - repo: wikidata
   srcname: Q7544141
   visiblename: Smartmontools

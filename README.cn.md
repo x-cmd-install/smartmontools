@@ -4,7 +4,7 @@
 
 2025-06-01: This is now the official upstream repository of smartmontools
 
-![smartmontools](https://repo.x-cmd.io/smartmontools.svg)
+![smartmontools](https://repo.x-cmd.io/smartmontools.svg?lang=zh)
 
 ## 安装
 
@@ -23,11 +23,24 @@ x install smartmontools
 - **最新版本**: `RELEASE_7_5` (2025-05-12)
 - **最近提交**: 2026-09-09
 - **Release 含资产**: 9 个
-- **发布时间**: 2025-05-12T07:04:50Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [smartmontools-7.5.dmg](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.dmg) | 1.5 MiB | `other` |
+| [smartmontools-7.5.dmg.asc](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.dmg.asc) | 833 B | `other` |
+| [smartmontools-7.5.dmg.md5](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.dmg.md5) | 56 B | `other` |
+| [smartmontools-7.5.tar.gz](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.tar.gz) | 1.1 MiB | `native/unknown` |
+| [smartmontools-7.5.tar.gz.asc](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.tar.gz.asc) | 833 B | `other` |
+| [smartmontools-7.5.tar.gz.md5](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.tar.gz.md5) | 59 B | `other` |
+| [smartmontools-7.5.win32-setup.exe](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe) | 1.4 MiB | `native/win/x64` |
+| [smartmontools-7.5.win32-setup.exe.asc](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe.asc) | 833 B | `native/win/x64` |
+| [smartmontools-7.5.win32-setup.exe.md5](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe.md5) | 68 B | `native/win/x64` |
 
 ## 流行度
 
-- **Star**: 1,356 · **Fork**: 282 · **开放 issue**: 399 · **贡献者**: 83
+- **Star**: 1,357 · **Fork**: 282 · **开放 issue**: 399 · **贡献者**: 83
 
 ## 累计统计
 
@@ -72,4 +85,4 @@ smartmontools 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/ins
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:00:54Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:08:25Z._

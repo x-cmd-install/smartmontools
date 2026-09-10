@@ -23,11 +23,24 @@ x install smartmontools
 - **Latest**: `RELEASE_7_5` (2025-05-12)
 - **Last commit**: 2026-09-09
 - **Assets in release**: 9
-- **Published**: 2025-05-12T07:04:50Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [smartmontools-7.5.dmg](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.dmg) | 1.5 MiB | `other` |
+| [smartmontools-7.5.dmg.asc](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.dmg.asc) | 833 B | `other` |
+| [smartmontools-7.5.dmg.md5](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.dmg.md5) | 56 B | `other` |
+| [smartmontools-7.5.tar.gz](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.tar.gz) | 1.1 MiB | `native/unknown` |
+| [smartmontools-7.5.tar.gz.asc](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.tar.gz.asc) | 833 B | `other` |
+| [smartmontools-7.5.tar.gz.md5](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.tar.gz.md5) | 59 B | `other` |
+| [smartmontools-7.5.win32-setup.exe](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe) | 1.4 MiB | `native/win/x64` |
+| [smartmontools-7.5.win32-setup.exe.asc](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe.asc) | 833 B | `native/win/x64` |
+| [smartmontools-7.5.win32-setup.exe.md5](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe.md5) | 68 B | `native/win/x64` |
 
 ## Popularity
 
-- **Stars**: 1,356 · **Forks**: 282 · **Open issues**: 399 · **Contributors**: 83
+- **Stars**: 1,357 · **Forks**: 282 · **Open issues**: 399 · **Contributors**: 83
 
 ## Totals (cumulative)
 
@@ -68,8 +81,8 @@ Lowest-scoring checks:
 Install metadata for smartmontools lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `smartmontools` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/smartmontools.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/smartmontools.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:00:53Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:08:24Z._

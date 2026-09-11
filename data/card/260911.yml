@@ -7,7 +7,7 @@ about:
   latestVersion: "RELEASE_7_5"
   latestRelease: "RELEASE_7_5"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T03:57:18Z
+  collectedAt: 2026-09-11T20:47:28Z
 timeline:
   created: 2017-09-29
   lastCommit: 2026-09-09
@@ -15,13 +15,13 @@ timeline:
   lastRelease: 2025-05-12
   lastPrerelease: 
 popularity:
-  star: 1357
+  star: 1358
   watcher: 36
-  fork: 282
+  fork: 283
   release: 10
   contributor: 83
   pullRequest: 228
-  issue: 399
+  issue: 401
 language:
   C++: 1998482
   C: 865333
@@ -40,7 +40,7 @@ recent:
     mergedPR: 0
     openPR: 2
     closedIssue: 8
-    openIssue: 1
+    openIssue: 3
     commit: 34
   last60d:
     since: 2026-07-13
@@ -48,7 +48,7 @@ recent:
     mergedPR: 2
     openPR: 2
     closedIssue: 13
-    openIssue: 2
+    openIssue: 4
     commit: 112
   last90d:
     since: 2026-06-13
@@ -56,7 +56,7 @@ recent:
     mergedPR: 11
     openPR: 2
     closedIssue: 18
-    openIssue: 6
+    openIssue: 8
     commit: 131
   last180d:
     since: 2026-03-15
@@ -64,7 +64,7 @@ recent:
     mergedPR: 20
     openPR: 4
     closedIssue: 40
-    openIssue: 14
+    openIssue: 16
     commit: 174
   last360d:
     since: 2025-09-16
@@ -72,7 +72,7 @@ recent:
     mergedPR: 78
     openPR: 5
     closedIssue: 113
-    openIssue: 29
+    openIssue: 31
     commit: 419
   last720d:
     since: 2024-09-21
@@ -80,18 +80,18 @@ recent:
     mergedPR: 95
     openPR: 5
     closedIssue: 167
-    openIssue: 40
+    openIssue: 42
     commit: 672
 total:
   release: 10
   mergedPR: 95
   openPR: 10
   closedIssue: 336
-  openIssue: 63
+  openIssue: 65
   commit: 6229
 ---
 path: /home/runner/.x-repo/github.com/smartmontools/smartmontools
-collectedAt: 2026-09-11T03:57:27Z
+collectedAt: 2026-09-11T20:47:36Z
 loc:
   Cpp:
     code: 42214

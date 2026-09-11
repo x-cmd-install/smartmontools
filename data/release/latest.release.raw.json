@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1619514,
       "digest": null,
-      "download_count": 16254,
+      "download_count": 16263,
       "created_at": "2025-05-12T07:04:42Z",
       "updated_at": "2025-05-12T07:04:43Z",
       "browser_download_url": "https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.dmg"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 56,
       "digest": null,
-      "download_count": 1103,
+      "download_count": 1106,
       "created_at": "2025-05-12T07:04:44Z",
       "updated_at": "2025-05-12T07:04:44Z",
       "browser_download_url": "https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.dmg.md5"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 1122317,
       "digest": null,
-      "download_count": 11646,
+      "download_count": 11654,
       "created_at": "2025-05-12T07:04:40Z",
       "updated_at": "2025-05-12T07:04:42Z",
       "browser_download_url": "https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 59,
       "digest": null,
-      "download_count": 959,
+      "download_count": 961,
       "created_at": "2025-05-12T07:04:42Z",
       "updated_at": "2025-05-12T07:04:42Z",
       "browser_download_url": "https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.tar.gz.md5"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 1508408,
       "digest": null,
-      "download_count": 2741230,
+      "download_count": 2742679,
       "created_at": "2025-05-12T07:04:44Z",
       "updated_at": "2025-05-12T07:04:45Z",
       "browser_download_url": "https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 68,
       "digest": null,
-      "download_count": 3803,
+      "download_count": 3807,
       "created_at": "2025-05-12T07:04:45Z",
       "updated_at": "2025-05-12T07:04:45Z",
       "browser_download_url": "https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe.md5"

@@ -14,7 +14,7 @@ x install smartmontools
 
 ## Code insight
 
-Total: **80,485** lines of code across **129** files in the top 5 languages.
+Total: **80,489** lines of code across **129** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `RELEASE_7_5` (2025-05-12)
-- **Last commit**: 2026-09-09
+- **Last commit**: 2026-09-14
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 1,361 · **Forks**: 286 · **Open issues**: 402 · **Contributors**: 83
+- **Stars**: 1,362 · **Forks**: 286 · **Open issues**: 402 · **Contributors**: 83
 
 ## Totals (cumulative)
 
-- **Releases**: 10 · **Merged PRs**: 95 · **Open PRs**: 11 · **Closed issues**: 337 · **Open issues**: 65 · **Commits**: 6229
+- **Releases**: 10 · **Merged PRs**: 95 · **Open PRs**: 11 · **Closed issues**: 337 · **Open issues**: 65 · **Commits**: 6231
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 0 | 0 | 3 | 9 | 3 | 30 |
-| last60d | 2026-07-16 | 0 | 0 | 3 | 13 | 4 | 89 |
-| 90d | 2026-06-16 | 0 | 10 | 3 | 19 | 8 | 127 |
-| last180d | 2026-03-18 | 0 | 19 | 4 | 39 | 16 | 174 |
-| 360d | 2025-09-19 | 0 | 78 | 6 | 113 | 30 | 399 |
-| last720d | 2024-09-24 | 1 | 95 | 6 | 168 | 42 | 670 |
+| 30d | 2026-08-16 | 0 | 0 | 3 | 9 | 3 | 32 |
+| last60d | 2026-07-17 | 0 | 0 | 3 | 13 | 4 | 91 |
+| 90d | 2026-06-17 | 0 | 10 | 3 | 19 | 7 | 129 |
+| last180d | 2026-03-19 | 0 | 19 | 4 | 39 | 16 | 176 |
+| 360d | 2025-09-20 | 0 | 78 | 6 | 113 | 30 | 401 |
+| last720d | 2024-09-25 | 1 | 95 | 6 | 166 | 42 | 672 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for smartmontools lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T04:17:49Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T04:17:25Z._

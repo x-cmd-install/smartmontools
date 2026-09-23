@@ -4,7 +4,7 @@
 
 2025-06-01: This is now the official upstream repository of smartmontools
 
-[![x-cmd/install — smartmontools Code Quality Monitoring Repo Card](https://repo.x-cmd.io/smartmontools.svg?lang=zh)](https://x-cmd.com/install/smartmontools)
+[![x-cmd/install — smartmontools Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/smartmontools.svg?lang=zh)](https://x-cmd.com/install/smartmontools)
 
 ## 安装
 
@@ -48,22 +48,22 @@ x install smartmontools
 
 ## 流行度
 
-- **Star**: 1,373 · **Fork**: 286 · **开放 issue**: 405 · **贡献者**: 83
+- **Star**: 1,375 · **Fork**: 286 · **开放 issue**: 406 · **贡献者**: 83
 
 ## 累计统计
 
-- **发布数**: 10 · **已合并 PR**: 95 · **开放 PR**: 11 · **已关闭 issue**: 337 · **开放 issue**: 68 · **提交数**: 6232
+- **发布数**: 10 · **已合并 PR**: 95 · **开放 PR**: 11 · **已关闭 issue**: 337 · **开放 issue**: 69 · **提交数**: 6232
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 4 | 8 | 6 | 30 |
-| last60d | 2026-07-24 | 0 | 0 | 4 | 13 | 6 | 65 |
-| 90d | 2026-06-24 | 0 | 7 | 4 | 16 | 10 | 128 |
-| last180d | 2026-03-26 | 0 | 17 | 5 | 36 | 19 | 176 |
-| 360d | 2025-09-27 | 0 | 78 | 6 | 111 | 33 | 390 |
-| last720d | 2024-10-02 | 1 | 95 | 6 | 165 | 44 | 672 |
+| 30d | 2026-08-24 | 0 | 0 | 4 | 8 | 7 | 30 |
+| last60d | 2026-07-25 | 0 | 0 | 4 | 13 | 7 | 65 |
+| 90d | 2026-06-25 | 0 | 7 | 4 | 16 | 11 | 128 |
+| last180d | 2026-03-27 | 0 | 17 | 5 | 35 | 20 | 176 |
+| 360d | 2025-09-28 | 0 | 78 | 6 | 109 | 34 | 390 |
+| last720d | 2024-10-03 | 1 | 95 | 6 | 165 | 45 | 672 |
 
 ## Release 资产
 
@@ -88,4 +88,4 @@ smartmontools 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/ins
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T04:13:30Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T04:10:19Z._

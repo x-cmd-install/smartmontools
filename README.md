@@ -4,7 +4,7 @@
 
 2025-06-01: This is now the official upstream repository of smartmontools
 
-[![x-cmd/install — smartmontools Code Quality Monitoring Repo Card](https://repo.x-cmd.io/smartmontools.svg)](https://x-cmd.com/install/smartmontools)
+[![x-cmd/install — smartmontools Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/smartmontools.svg)](https://x-cmd.com/install/smartmontools)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,373 · **Forks**: 286 · **Open issues**: 405 · **Contributors**: 83
+- **Stars**: 1,375 · **Forks**: 286 · **Open issues**: 406 · **Contributors**: 83
 
 ## Totals (cumulative)
 
-- **Releases**: 10 · **Merged PRs**: 95 · **Open PRs**: 11 · **Closed issues**: 337 · **Open issues**: 68 · **Commits**: 6232
+- **Releases**: 10 · **Merged PRs**: 95 · **Open PRs**: 11 · **Closed issues**: 337 · **Open issues**: 69 · **Commits**: 6232
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 4 | 8 | 6 | 30 |
-| last60d | 2026-07-24 | 0 | 0 | 4 | 13 | 6 | 65 |
-| 90d | 2026-06-24 | 0 | 7 | 4 | 16 | 10 | 128 |
-| last180d | 2026-03-26 | 0 | 17 | 5 | 36 | 19 | 176 |
-| 360d | 2025-09-27 | 0 | 78 | 6 | 111 | 33 | 390 |
-| last720d | 2024-10-02 | 1 | 95 | 6 | 165 | 44 | 672 |
+| 30d | 2026-08-24 | 0 | 0 | 4 | 8 | 7 | 30 |
+| last60d | 2026-07-25 | 0 | 0 | 4 | 13 | 7 | 65 |
+| 90d | 2026-06-25 | 0 | 7 | 4 | 16 | 11 | 128 |
+| last180d | 2026-03-27 | 0 | 17 | 5 | 35 | 20 | 176 |
+| 360d | 2025-09-28 | 0 | 78 | 6 | 109 | 34 | 390 |
+| last720d | 2024-10-03 | 1 | 95 | 6 | 165 | 45 | 672 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for smartmontools lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T04:13:28Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T04:10:18Z._

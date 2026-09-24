@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1619514,
       "digest": null,
-      "download_count": 17028,
+      "download_count": 17085,
       "created_at": "2025-05-12T07:04:42Z",
       "updated_at": "2025-05-12T07:04:43Z",
       "browser_download_url": "https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.dmg"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": null,
-      "download_count": 352,
+      "download_count": 353,
       "created_at": "2025-05-12T07:04:43Z",
       "updated_at": "2025-05-12T07:04:44Z",
       "browser_download_url": "https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.dmg.asc"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 56,
       "digest": null,
-      "download_count": 1197,
+      "download_count": 1208,
       "created_at": "2025-05-12T07:04:44Z",
       "updated_at": "2025-05-12T07:04:44Z",
       "browser_download_url": "https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.dmg.md5"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 1122317,
       "digest": null,
-      "download_count": 12571,
+      "download_count": 12678,
       "created_at": "2025-05-12T07:04:40Z",
       "updated_at": "2025-05-12T07:04:42Z",
       "browser_download_url": "https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": null,
-      "download_count": 372,
+      "download_count": 375,
       "created_at": "2025-05-12T07:04:42Z",
       "updated_at": "2025-05-12T07:04:42Z",
       "browser_download_url": "https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.tar.gz.asc"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 59,
       "digest": null,
-      "download_count": 1049,
+      "download_count": 1063,
       "created_at": "2025-05-12T07:04:42Z",
       "updated_at": "2025-05-12T07:04:42Z",
       "browser_download_url": "https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.tar.gz.md5"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 1508408,
       "digest": null,
-      "download_count": 2842521,
+      "download_count": 2851070,
       "created_at": "2025-05-12T07:04:44Z",
       "updated_at": "2025-05-12T07:04:45Z",
       "browser_download_url": "https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": null,
-      "download_count": 682,
+      "download_count": 688,
       "created_at": "2025-05-12T07:04:45Z",
       "updated_at": "2025-05-12T07:04:45Z",
       "browser_download_url": "https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe.asc"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 68,
       "digest": null,
-      "download_count": 4447,
+      "download_count": 4513,
       "created_at": "2025-05-12T07:04:45Z",
       "updated_at": "2025-05-12T07:04:45Z",
       "browser_download_url": "https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe.md5"

@@ -14,14 +14,14 @@ x install smartmontools
 
 ## Code insight
 
-Total: **80,436** lines of code across **129** files in the top 5 languages.
+Total: **80,484** lines of code across **129** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 42,157 | 5,268 | 5,745 | 44 |
+| Cpp | 42,186 | 5,269 | 5,764 | 44 |
 | CHeader | 15,160 | 4,447 | 2,120 | 53 |
 | C | 8,802 | 1,492 | 1,027 | 8 |
-| Autoconf | 7,653 | 398 | 303 | 16 |
+| Autoconf | 7,663 | 398 | 303 | 16 |
 | VisualStudioProject | 3,945 | 0 | 0 | 8 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `RELEASE_7_5` (2025-05-12)
-- **Last commit**: 2026-10-07
+- **Last commit**: 2026-10-13
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 1,415 · **Forks**: 293 · **Open issues**: 411 · **Contributors**: 84
+- **Stars**: 1,421 · **Forks**: 293 · **Open issues**: 411 · **Contributors**: 85
 
 ## Totals (cumulative)
 
-- **Releases**: 10 · **Merged PRs**: 97 · **Open PRs**: 16 · **Closed issues**: 341 · **Open issues**: 70 · **Commits**: 6237
+- **Releases**: 10 · **Merged PRs**: 98 · **Open PRs**: 15 · **Closed issues**: 341 · **Open issues**: 70 · **Commits**: 6241
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 2 | 8 | 2 | 7 | 6 |
-| last60d | 2026-08-14 | 0 | 2 | 10 | 12 | 9 | 41 |
-| 90d | 2026-07-15 | 0 | 2 | 10 | 16 | 10 | 113 |
-| last180d | 2026-04-16 | 0 | 18 | 11 | 34 | 21 | 164 |
-| 360d | 2025-10-18 | 0 | 75 | 11 | 110 | 33 | 362 |
-| last720d | 2024-10-23 | 1 | 97 | 11 | 167 | 45 | 670 |
+| 30d | 2026-09-14 | 0 | 3 | 7 | 2 | 7 | 10 |
+| last60d | 2026-08-15 | 0 | 3 | 9 | 12 | 9 | 45 |
+| 90d | 2026-07-16 | 0 | 3 | 9 | 16 | 10 | 117 |
+| last180d | 2026-04-17 | 0 | 19 | 9 | 34 | 21 | 168 |
+| 360d | 2025-10-19 | 0 | 76 | 10 | 110 | 33 | 366 |
+| last720d | 2024-10-24 | 1 | 98 | 10 | 167 | 45 | 670 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for smartmontools lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T06:16:58Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T04:19:43Z._

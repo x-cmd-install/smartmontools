@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,428 · **Forks**: 296 · **Open issues**: 413 · **Contributors**: 86
+- **Stars**: 1,432 · **Forks**: 298 · **Open issues**: 413 · **Contributors**: 86
 
 ## Totals (cumulative)
 
-- **Releases**: 10 · **Merged PRs**: 99 · **Open PRs**: 15 · **Closed issues**: 342 · **Open issues**: 71 · **Commits**: 6244
+- **Releases**: 10 · **Merged PRs**: 99 · **Open PRs**: 17 · **Closed issues**: 342 · **Open issues**: 71 · **Commits**: 6244
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 4 | 6 | 0 | 8 | 11 |
-| last60d | 2026-08-23 | 0 | 4 | 9 | 11 | 11 | 42 |
-| 90d | 2026-07-24 | 0 | 4 | 9 | 16 | 11 | 89 |
-| last180d | 2026-04-25 | 0 | 17 | 9 | 32 | 23 | 169 |
-| 360d | 2025-10-27 | 0 | 77 | 10 | 108 | 35 | 365 |
-| last720d | 2024-11-01 | 1 | 99 | 10 | 166 | 47 | 671 |
+| 30d | 2026-09-23 | 0 | 4 | 8 | 0 | 7 | 11 |
+| last60d | 2026-08-24 | 0 | 4 | 11 | 11 | 11 | 42 |
+| 90d | 2026-07-25 | 0 | 4 | 11 | 16 | 11 | 89 |
+| last180d | 2026-04-26 | 0 | 17 | 11 | 32 | 23 | 169 |
+| 360d | 2025-10-28 | 0 | 77 | 12 | 108 | 35 | 365 |
+| last720d | 2024-11-02 | 1 | 99 | 12 | 166 | 47 | 671 |
 
 ## Release assets
 
@@ -79,6 +79,25 @@ Lowest-scoring checks:
 | [smartmontools-7.5.win32-setup.exe.asc](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe.asc) | 833 B | `native/win/x64` |
 | [smartmontools-7.5.win32-setup.exe.md5](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe.md5) | 68 B | `native/win/x64` |
 
+## Distribution status
+
+Reported by **229** distros on [repology.org](https://repology.org/project/smartmontools). **99** are ✅ on the latest upstream release, **117** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `7.5` | ✅ latest |
+| Debian 14 | `7.5` | ✅ latest |
+| Debian 13 | `7.4` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `7.5` | ✅ latest |
+| Ubuntu 24.04 LTS | `7.4` | ⚠️ outdated |
+| Arch | `7.5` | ✅ latest |
+| Homebrew | `7.5` | ✅ latest |
+| Fedora rawhide | `7.5` | ✅ latest |
+| Nix unstable | `7.5` | ✅ latest |
+| Void | `7.5` | ✅ latest |
+| Alpine edge | `7.5` | ✅ latest |
+| openSUSE Tumbleweed | `7.5` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for smartmontools lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `smartmontools` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -88,4 +107,4 @@ Install metadata for smartmontools lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T04:05:27Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T04:09:09Z._

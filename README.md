@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,439 · **Forks**: 299 · **Open issues**: 413 · **Contributors**: 86
+- **Stars**: 1,443 · **Forks**: 299 · **Open issues**: 413 · **Contributors**: 86
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 4 | 8 | 0 | 7 | 15 |
-| last60d | 2026-08-26 | 0 | 4 | 11 | 11 | 11 | 37 |
-| 90d | 2026-07-27 | 0 | 4 | 11 | 16 | 11 | 71 |
-| last180d | 2026-04-28 | 0 | 17 | 11 | 32 | 23 | 174 |
-| 360d | 2025-10-30 | 0 | 77 | 12 | 108 | 35 | 356 |
-| last720d | 2024-11-04 | 1 | 99 | 12 | 166 | 46 | 677 |
+| 30d | 2026-09-26 | 0 | 3 | 8 | 0 | 7 | 15 |
+| last60d | 2026-08-27 | 0 | 4 | 11 | 11 | 11 | 37 |
+| 90d | 2026-07-28 | 0 | 4 | 11 | 16 | 11 | 71 |
+| last180d | 2026-04-29 | 0 | 17 | 11 | 32 | 23 | 174 |
+| 360d | 2025-10-31 | 0 | 77 | 12 | 105 | 35 | 356 |
+| last720d | 2024-11-05 | 1 | 99 | 12 | 166 | 46 | 677 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **230** distros on [repology.org](https://repology.org/project/smartmontools). **100** are ✅ on the latest upstream release, **117** are ⚠️ on an older version.
+Reported by **230** distros on [repology.org](https://repology.org/project/smartmontools). **101** are ✅ on the latest upstream release, **116** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -107,4 +107,4 @@ Install metadata for smartmontools lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T04:03:09Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T04:06:47Z._

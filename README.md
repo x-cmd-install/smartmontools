@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 10 · **Merged PRs**: 99 · **Open PRs**: 20 · **Closed issues**: 342 · **Open issues**: 73 · **Commits**: 6252
+- **Releases**: 10 · **Merged PRs**: 99 · **Open PRs**: 23 · **Closed issues**: 342 · **Open issues**: 73 · **Commits**: 6252
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 0 | 3 | 11 | 0 | 8 | 17 |
-| last60d | 2026-08-31 | 0 | 4 | 14 | 9 | 13 | 39 |
-| 90d | 2026-08-01 | 0 | 4 | 14 | 15 | 13 | 73 |
-| last180d | 2026-05-03 | 0 | 17 | 14 | 28 | 25 | 176 |
-| 360d | 2025-11-04 | 0 | 77 | 15 | 105 | 37 | 358 |
-| last720d | 2024-11-09 | 1 | 99 | 15 | 165 | 48 | 679 |
+| 30d | 2026-10-01 | 0 | 3 | 13 | 0 | 8 | 17 |
+| last60d | 2026-09-01 | 0 | 4 | 17 | 7 | 13 | 39 |
+| 90d | 2026-08-02 | 0 | 4 | 17 | 15 | 13 | 73 |
+| last180d | 2026-05-04 | 0 | 17 | 17 | 28 | 25 | 176 |
+| 360d | 2025-11-05 | 0 | 77 | 18 | 105 | 37 | 358 |
+| last720d | 2024-11-10 | 1 | 99 | 18 | 165 | 48 | 679 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **230** distros on [repology.org](https://repology.org/project/smartmontools). **101** are ✅ on the latest upstream release, **116** are ⚠️ on an older version.
+Reported by **231** distros on [repology.org](https://repology.org/project/smartmontools). **102** are ✅ on the latest upstream release, **116** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -107,4 +107,4 @@ Install metadata for smartmontools lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T05:09:02Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T04:54:47Z._

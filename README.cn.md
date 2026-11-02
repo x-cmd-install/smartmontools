@@ -48,7 +48,7 @@ x install smartmontools
 
 ## 流行度
 
-- **Star**: 1,454 · **Fork**: 303 · **开放 issue**: 415 · **贡献者**: 86
+- **Star**: 1,457 · **Fork**: 303 · **开放 issue**: 415 · **贡献者**: 86
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install smartmontools
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 4 | 13 | 0 | 7 | 16 |
-| last60d | 2026-09-02 | 0 | 5 | 16 | 6 | 13 | 30 |
-| 90d | 2026-08-03 | 0 | 5 | 17 | 15 | 13 | 58 |
-| last180d | 2026-05-05 | 0 | 18 | 17 | 28 | 25 | 177 |
-| 360d | 2025-11-06 | 0 | 78 | 18 | 105 | 37 | 354 |
-| last720d | 2024-11-11 | 1 | 100 | 18 | 165 | 48 | 680 |
+| 30d | 2026-10-03 | 0 | 4 | 13 | 0 | 7 | 16 |
+| last60d | 2026-09-03 | 0 | 5 | 15 | 5 | 13 | 30 |
+| 90d | 2026-08-04 | 0 | 5 | 17 | 15 | 13 | 58 |
+| last180d | 2026-05-06 | 0 | 18 | 17 | 28 | 25 | 177 |
+| 360d | 2025-11-07 | 0 | 78 | 18 | 105 | 37 | 354 |
+| last720d | 2024-11-12 | 1 | 100 | 18 | 165 | 48 | 680 |
 
 ## Release 资产
 
@@ -79,25 +79,6 @@ x install smartmontools
 | [smartmontools-7.5.win32-setup.exe.asc](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe.asc) | 833 B | `native/win/x64` |
 | [smartmontools-7.5.win32-setup.exe.md5](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe.md5) | 68 B | `native/win/x64` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/smartmontools) 上共有 **230** 个发行版报告此项目。**101** 个 ✅ 已是最新上游版本，**116** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `7.5` | ✅ latest |
-| Debian 14 | `7.5` | ✅ latest |
-| Debian 13 | `7.4` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `7.5` | ✅ latest |
-| Ubuntu 24.04 LTS | `7.4` | ⚠️ outdated |
-| Arch | `7.5` | ✅ latest |
-| Homebrew | `7.5` | ✅ latest |
-| Fedora rawhide | `7.5` | ✅ latest |
-| Nix unstable | `7.5` | ✅ latest |
-| Void | `7.5` | ✅ latest |
-| Alpine edge | `7.5` | ✅ latest |
-| openSUSE Tumbleweed | `7.5` | ✅ latest |
-
 ## 改进这些数据
 
 smartmontools 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `smartmontools` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -107,4 +88,4 @@ smartmontools 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/ins
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261101.yml` · 2026-11-01T05:22:34Z._
+_数据快照: `data/card/261102.yml` · 2026-11-02T05:20:55Z._

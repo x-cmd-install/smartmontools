@@ -14,11 +14,11 @@ x install smartmontools
 
 ## Code insight
 
-Total: **80,496** lines of code across **129** files in the top 5 languages.
+Total: **80,499** lines of code across **129** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 42,198 | 5,269 | 5,764 | 44 |
+| Cpp | 42,201 | 5,269 | 5,766 | 44 |
 | CHeader | 15,160 | 4,447 | 2,120 | 53 |
 | C | 8,802 | 1,492 | 1,027 | 8 |
 | Autoconf | 7,663 | 398 | 303 | 16 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `RELEASE_7_5` (2025-05-12)
-- **Last commit**: 2026-11-03
+- **Last commit**: 2026-11-05
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 1,460 · **Forks**: 304 · **Open issues**: 417 · **Contributors**: 86
+- **Stars**: 1,463 · **Forks**: 304 · **Open issues**: 417 · **Contributors**: 86
 
 ## Totals (cumulative)
 
-- **Releases**: 10 · **Merged PRs**: 100 · **Open PRs**: 24 · **Closed issues**: 342 · **Open issues**: 75 · **Commits**: 6256
+- **Releases**: 10 · **Merged PRs**: 100 · **Open PRs**: 24 · **Closed issues**: 342 · **Open issues**: 75 · **Commits**: 6257
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 0 | 4 | 12 | 0 | 7 | 19 |
-| last60d | 2026-09-06 | 0 | 5 | 16 | 3 | 15 | 33 |
-| 90d | 2026-08-07 | 0 | 5 | 18 | 13 | 15 | 61 |
-| last180d | 2026-05-09 | 0 | 18 | 18 | 27 | 27 | 180 |
-| 360d | 2025-11-10 | 0 | 77 | 19 | 104 | 38 | 357 |
-| last720d | 2024-11-15 | 1 | 100 | 19 | 165 | 49 | 681 |
+| 30d | 2026-10-07 | 0 | 3 | 12 | 0 | 7 | 20 |
+| last60d | 2026-09-07 | 0 | 5 | 16 | 3 | 15 | 34 |
+| 90d | 2026-08-08 | 0 | 5 | 18 | 12 | 15 | 62 |
+| last180d | 2026-05-10 | 0 | 18 | 18 | 27 | 27 | 181 |
+| 360d | 2025-11-11 | 0 | 77 | 19 | 103 | 38 | 358 |
+| last720d | 2024-11-16 | 1 | 100 | 19 | 165 | 49 | 682 |
 
 ## Release assets
 
@@ -107,4 +107,4 @@ Install metadata for smartmontools lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T05:58:02Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T05:54:53Z._

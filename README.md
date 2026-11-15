@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,478 · **Forks**: 307 · **Open issues**: 422 · **Contributors**: 87
+- **Stars**: 1,480 · **Forks**: 307 · **Open issues**: 422 · **Contributors**: 87
 
 ## Totals (cumulative)
 
-- **Releases**: 10 · **Merged PRs**: 102 · **Open PRs**: 28 · **Closed issues**: 345 · **Open issues**: 77 · **Commits**: 6267
+- **Releases**: 10 · **Merged PRs**: 102 · **Open PRs**: 29 · **Closed issues**: 345 · **Open issues**: 77 · **Commits**: 6267
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 0 | 3 | 14 | 2 | 8 | 26 |
-| last60d | 2026-09-15 | 0 | 7 | 20 | 4 | 16 | 36 |
-| 90d | 2026-08-16 | 0 | 7 | 22 | 14 | 18 | 72 |
-| last180d | 2026-05-18 | 0 | 20 | 22 | 28 | 27 | 174 |
-| 360d | 2025-11-19 | 0 | 69 | 23 | 101 | 41 | 341 |
-| last720d | 2024-11-24 | 1 | 102 | 23 | 167 | 50 | 686 |
+| 30d | 2026-10-16 | 0 | 3 | 15 | 2 | 8 | 23 |
+| last60d | 2026-09-16 | 0 | 7 | 21 | 3 | 16 | 35 |
+| 90d | 2026-08-17 | 0 | 7 | 23 | 14 | 18 | 68 |
+| last180d | 2026-05-19 | 0 | 20 | 23 | 28 | 27 | 171 |
+| 360d | 2025-11-20 | 0 | 67 | 24 | 101 | 41 | 316 |
+| last720d | 2024-11-25 | 1 | 102 | 24 | 166 | 50 | 686 |
 
 ## Release assets
 
@@ -107,4 +107,4 @@ Install metadata for smartmontools lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T05:45:35Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T05:45:47Z._

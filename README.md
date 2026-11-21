@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,490 · **Forks**: 307 · **Open issues**: 425 · **Contributors**: 87
+- **Stars**: 1,492 · **Forks**: 307 · **Open issues**: 425 · **Contributors**: 87
 
 ## Totals (cumulative)
 
-- **Releases**: 10 · **Merged PRs**: 102 · **Open PRs**: 28 · **Closed issues**: 346 · **Open issues**: 79 · **Commits**: 6272
+- **Releases**: 10 · **Merged PRs**: 102 · **Open PRs**: 29 · **Closed issues**: 346 · **Open issues**: 79 · **Commits**: 6272
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 2 | 14 | 3 | 9 | 28 |
-| last60d | 2026-09-21 | 0 | 7 | 19 | 3 | 17 | 40 |
-| 90d | 2026-08-22 | 0 | 7 | 22 | 14 | 20 | 73 |
-| last180d | 2026-05-24 | 0 | 20 | 22 | 28 | 29 | 176 |
-| 360d | 2025-11-25 | 0 | 56 | 23 | 99 | 43 | 321 |
-| last720d | 2024-11-30 | 1 | 102 | 23 | 167 | 52 | 691 |
+| 30d | 2026-10-22 | 0 | 2 | 13 | 3 | 9 | 28 |
+| last60d | 2026-09-22 | 0 | 7 | 20 | 3 | 17 | 40 |
+| 90d | 2026-08-23 | 0 | 7 | 23 | 14 | 20 | 73 |
+| last180d | 2026-05-25 | 0 | 19 | 23 | 28 | 28 | 176 |
+| 360d | 2025-11-26 | 0 | 55 | 24 | 99 | 43 | 321 |
+| last720d | 2024-12-01 | 1 | 102 | 24 | 167 | 52 | 690 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **231** distros on [repology.org](https://repology.org/project/smartmontools). **104** are ✅ on the latest upstream release, **114** are ⚠️ on an older version.
+Reported by **230** distros on [repology.org](https://repology.org/project/smartmontools). **104** are ✅ on the latest upstream release, **113** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -107,4 +107,4 @@ Install metadata for smartmontools lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T06:38:25Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T06:28:32Z._

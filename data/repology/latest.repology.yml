@@ -1,36 +1,173 @@
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: smartmontools
+- repo: raspbian_stable
+  subrepo: main
+  srcname: smartmontools
+  binnames:
+    - smartmontools
   visiblename: smartmontools
-  version: "7.2"
-  origversion: null
+  version: "7.4"
+  origversion: 7.4-3
   status: outdated
   maintainers:
-    - volkerdi@slackware.com
-- repo: eurolinux_8
+    - onlyjob@debian.org
+    - contact@marsmenschen.com
+    - jmtd@debian.org
+  categories:
+    - utils
+- repo: raspbian_testing
+  subrepo: main
+  srcname: smartmontools
+  binnames:
+    - smartmontools
+  visiblename: smartmontools
+  version: "7.5"
+  origversion: 7.5-2
+  status: newest
+  maintainers:
+    - onlyjob@debian.org
+    - contact@marsmenschen.com
+    - jmtd@debian.org
+  categories:
+    - utils
+- repo: eurolinux_9
   subrepo: baseos
   srcname: smartmontools
+  binnames:
+    - smartmontools
+    - smartmontools-debuginfo
+    - smartmontools-debugsource
   visiblename: smartmontools
-  version: "6.6"
-  origversion: 1:6.6-3.el8
+  version: "7.2"
+  origversion: 1:7.2-7.el9
+  status: outdated
+  summary: Tools for monitoring SMART capable hard disks
+  licenses:
+    - GPLv2+
+  categories:
+    - Unspecified
+- repo: ubuntu_20_04
+  subrepo: focal/main
+  srcname: smartmontools
+  binnames:
+    - smartmontools
+  visiblename: smartmontools
+  version: "7.1"
+  origversion: 7.1-1build1
+  status: outdated
+  maintainers:
+    - onlyjob@debian.org
+    - contact@marsmenschen.com
+    - jmtd@debian.org
+  categories:
+    - utils
+- repo: eurolinux_9
+  subrepo: baseos
+  srcname: smartmontools
+  binnames:
+    - smartmontools
+    - smartmontools-debuginfo
+    - smartmontools-debugsource
+  visiblename: smartmontools
+  version: "7.2"
+  origversion: 1:7.2-9.el9
+  status: outdated
+  summary: Tools for monitoring SMART capable hard disks
+  licenses:
+    - GPLv2+
+  categories:
+    - Unspecified
+- repo: openeuler_20_03_lts_sp3
+  srcname: smartmontools
+  visiblename: smartmontools
+  version: "7.1"
+  origversion: 1:7.1-1.oe1
+  status: outdated
+  summary: S.M.A.R.T. utility toolset
+  licenses:
+    - GPLv2+
+  categories:
+    - Unspecified
+- repo: openeuler_20_03_lts_sp4
+  srcname: smartmontools
+  visiblename: smartmontools
+  version: "7.1"
+  origversion: 1:7.1-1.oe2003sp4
+  status: outdated
+  summary: S.M.A.R.T. utility toolset
+  licenses:
+    - GPLv2+
+  categories:
+    - Unspecified
+- repo: amazon_2
+  srcname: smartmontools
+  visiblename: smartmontools
+  version: "6.5"
+  origversion: 1:6.5-1.amzn2
   status: legacy
   summary: Tools for monitoring SMART capable hard disks
   licenses:
     - GPLv2+
   categories:
     - System Environment/Base
-- repo: eurolinux_8
-  subrepo: baseos
+- repo: arch
+  subrepo: extra
+  srcname: smartmontools
+  binname: smartmontools
+  visiblename: smartmontools
+  version: "7.5"
+  origversion: 7.5-2
+  status: newest
+  summary: Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
+  licenses:
+    - GPL-2.0-or-later
+- repo: artix
+  subrepo: world
+  srcname: smartmontools
+  binname: smartmontools
+  visiblename: smartmontools
+  version: "7.5"
+  origversion: 7.5-2
+  status: newest
+  summary: Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_18
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-openrc
+  visiblename: smartmontools-openrc
+  version: "7.3"
+  origversion: 7.3-r1
+  status: outdated
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: centos_7
+  subrepo: os
   srcname: smartmontools
   visiblename: smartmontools
-  version: "7.1"
-  origversion: 1:7.1-1.el8
+  version: "7.0"
+  origversion: 1:7.0-2.el7
   status: outdated
   summary: Tools for monitoring SMART capable hard disks
   licenses:
     - GPLv2+
   categories:
     - System Environment/Base
+- repo: alpine_3_18
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools
+  visiblename: smartmontools
+  version: "7.3"
+  origversion: 7.3-r1
+  status: outdated
+  summary: Control and monitor S.M.A.R.T. enabled hard drives
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
 - repo: adelie_current
   subrepo: user
   srcname: smartmontools
@@ -151,6 +288,17 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-or-later
+- repo: amazon_2
+  srcname: smartmontools
+  visiblename: smartmontools
+  version: "7.0"
+  origversion: 1:7.0-2.amzn2
+  status: outdated
+  summary: Tools for monitoring SMART capable hard disks
+  licenses:
+    - GPLv2+
+  categories:
+    - System Environment/Base
 - repo: alpine_3_17
   subrepo: main
   srcname: smartmontools
@@ -164,19 +312,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-or-later
-- repo: apertis_v2026
-  subrepo: v2026/target
-  srcname: smartmontools
-  binnames:
-    - smartmontools
-  visiblename: smartmontools
-  version: "7.4"
-  origversion: 7.4-3+apertis0
-  status: outdated
-  maintainers:
-    - onlyjob@debian.org
-    - contact@marsmenschen.com
-    - jmtd@debian.org
 - repo: alpine_3_17
   subrepo: main
   srcname: smartmontools
@@ -190,19 +325,20 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: main
+- repo: cygwin
   srcname: smartmontools
   binname: smartmontools
   visiblename: smartmontools
-  version: "7.3"
-  origversion: 7.3-r1
-  status: outdated
-  summary: Control and monitor S.M.A.R.T. enabled hard drives
+  version: "7.5"
+  origversion: 7.5-1
+  status: newest
+  summary: Control and monitor storage systems using SMART
   maintainers:
-    - ncopa@alpinelinux.org
+    - christian.franke@cygwin
   licenses:
     - GPL-2.0-or-later
+  categories:
+    - Utils
 - repo: alpine_3_18
   subrepo: main
   srcname: smartmontools
@@ -216,19 +352,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-openrc
-  visiblename: smartmontools-openrc
-  version: "7.3"
-  origversion: 7.3-r1
-  status: outdated
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
 - repo: alpine_3_19
   subrepo: main
   srcname: smartmontools
@@ -237,6 +360,345 @@
   version: "7.4"
   origversion: 7.4-r1
   status: outdated
+  summary: Control and monitor S.M.A.R.T. enabled hard drives
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-dbg
+  visiblename: smartmontools-dbg
+  version: "7.4"
+  origversion: 7.4-r1
+  status: outdated
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-doc
+  visiblename: smartmontools-doc
+  version: "7.4"
+  origversion: 7.4-r1
+  status: outdated
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-openrc
+  visiblename: smartmontools-openrc
+  version: "7.4"
+  origversion: 7.4-r1
+  status: outdated
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools
+  visiblename: smartmontools
+  version: "7.4"
+  origversion: 7.4-r1
+  status: outdated
+  summary: Control and monitor S.M.A.R.T. enabled hard drives
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-dbg
+  visiblename: smartmontools-dbg
+  version: "7.4"
+  origversion: 7.4-r1
+  status: outdated
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-doc
+  visiblename: smartmontools-doc
+  version: "7.4"
+  origversion: 7.4-r1
+  status: outdated
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_edge
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-dbg
+  visiblename: smartmontools-dbg
+  version: "7.5"
+  origversion: 7.5-r0
+  status: newest
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-openrc
+  visiblename: smartmontools-openrc
+  version: "7.4"
+  origversion: 7.4-r1
+  status: outdated
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools
+  visiblename: smartmontools
+  version: "7.4"
+  origversion: 7.4-r1
+  status: outdated
+  summary: Control and monitor S.M.A.R.T. enabled hard drives
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-dbg
+  visiblename: smartmontools-dbg
+  version: "7.4"
+  origversion: 7.4-r1
+  status: outdated
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-doc
+  visiblename: smartmontools-doc
+  version: "7.4"
+  origversion: 7.4-r1
+  status: outdated
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-openrc
+  visiblename: smartmontools-openrc
+  version: "7.4"
+  origversion: 7.4-r1
+  status: outdated
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools
+  visiblename: smartmontools
+  version: "7.5"
+  origversion: 7.5-r0
+  status: newest
+  summary: Control and monitor S.M.A.R.T. enabled hard drives
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-dbg
+  visiblename: smartmontools-dbg
+  version: "7.5"
+  origversion: 7.5-r0
+  status: newest
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-doc
+  visiblename: smartmontools-doc
+  version: "7.5"
+  origversion: 7.5-r0
+  status: newest
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-openrc
+  visiblename: smartmontools-openrc
+  version: "7.5"
+  origversion: 7.5-r0
+  status: newest
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: cygwin
+  srcname: smartmontools
+  binname: smartmontools-debuginfo
+  visiblename: smartmontools-debuginfo
+  version: "7.5"
+  origversion: 7.5-1
+  status: newest
+  summary: Control and monitor storage systems using SMART
+  maintainers:
+    - christian.franke@cygwin
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Debug
+- repo: alpine_3_23
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools
+  visiblename: smartmontools
+  version: "7.5"
+  origversion: 7.5-r0
+  status: newest
+  summary: Control and monitor S.M.A.R.T. enabled hard drives
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-dbg
+  visiblename: smartmontools-dbg
+  version: "7.5"
+  origversion: 7.5-r0
+  status: newest
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-doc
+  visiblename: smartmontools-doc
+  version: "7.5"
+  origversion: 7.5-r0
+  status: newest
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-openrc
+  visiblename: smartmontools-openrc
+  version: "7.5"
+  origversion: 7.5-r0
+  status: newest
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools
+  visiblename: smartmontools
+  version: "7.5"
+  origversion: 7.5-r0
+  status: newest
+  summary: Control and monitor S.M.A.R.T. enabled hard drives
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-dbg
+  visiblename: smartmontools-dbg
+  version: "7.5"
+  origversion: 7.5-r0
+  status: newest
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-doc
+  visiblename: smartmontools-doc
+  version: "7.5"
+  origversion: 7.5-r0
+  status: newest
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools-openrc
+  visiblename: smartmontools-openrc
+  version: "7.5"
+  origversion: 7.5-r0
+  status: newest
+  summary: Control and monitor S.M.A.R.T. enabled hard drives (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_edge
+  subrepo: main
+  srcname: smartmontools
+  binname: smartmontools
+  visiblename: smartmontools
+  version: "7.5"
+  origversion: 7.5-r0
+  status: newest
   summary: Control and monitor S.M.A.R.T. enabled hard drives
   maintainers:
     - ncopa@alpinelinux.org
@@ -254,357 +716,6 @@
     - ava1ar@aur
   licenses:
     - GPL
-- repo: alpine_3_19
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-dbg
-  visiblename: smartmontools-dbg
-  version: "7.4"
-  origversion: 7.4-r1
-  status: outdated
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-doc
-  visiblename: smartmontools-doc
-  version: "7.4"
-  origversion: 7.4-r1
-  status: outdated
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-openrc
-  visiblename: smartmontools-openrc
-  version: "7.4"
-  origversion: 7.4-r1
-  status: outdated
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools
-  visiblename: smartmontools
-  version: "7.4"
-  origversion: 7.4-r1
-  status: outdated
-  summary: Control and monitor S.M.A.R.T. enabled hard drives
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-dbg
-  visiblename: smartmontools-dbg
-  version: "7.4"
-  origversion: 7.4-r1
-  status: outdated
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-doc
-  visiblename: smartmontools-doc
-  version: "7.4"
-  origversion: 7.4-r1
-  status: outdated
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-openrc
-  visiblename: smartmontools-openrc
-  version: "7.4"
-  origversion: 7.4-r1
-  status: outdated
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools
-  visiblename: smartmontools
-  version: "7.4"
-  origversion: 7.4-r1
-  status: outdated
-  summary: Control and monitor S.M.A.R.T. enabled hard drives
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-dbg
-  visiblename: smartmontools-dbg
-  version: "7.4"
-  origversion: 7.4-r1
-  status: outdated
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-doc
-  visiblename: smartmontools-doc
-  version: "7.4"
-  origversion: 7.4-r1
-  status: outdated
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-openrc
-  visiblename: smartmontools-openrc
-  version: "7.4"
-  origversion: 7.4-r1
-  status: outdated
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools
-  visiblename: smartmontools
-  version: "7.5"
-  origversion: 7.5-r0
-  status: newest
-  summary: Control and monitor S.M.A.R.T. enabled hard drives
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-dbg
-  visiblename: smartmontools-dbg
-  version: "7.5"
-  origversion: 7.5-r0
-  status: newest
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-doc
-  visiblename: smartmontools-doc
-  version: "7.5"
-  origversion: 7.5-r0
-  status: newest
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: apertis_v2027
-  subrepo: v2027dev1/target
-  srcname: smartmontools
-  binnames:
-    - smartmontools
-  visiblename: smartmontools
-  version: "7.4"
-  origversion: 7.4-3+apertis0
-  status: outdated
-  maintainers:
-    - onlyjob@debian.org
-    - contact@marsmenschen.com
-    - jmtd@debian.org
-- repo: alpine_3_22
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-openrc
-  visiblename: smartmontools-openrc
-  version: "7.5"
-  origversion: 7.5-r0
-  status: newest
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools
-  visiblename: smartmontools
-  version: "7.5"
-  origversion: 7.5-r0
-  status: newest
-  summary: Control and monitor S.M.A.R.T. enabled hard drives
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-dbg
-  visiblename: smartmontools-dbg
-  version: "7.5"
-  origversion: 7.5-r0
-  status: newest
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-doc
-  visiblename: smartmontools-doc
-  version: "7.5"
-  origversion: 7.5-r0
-  status: newest
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-openrc
-  visiblename: smartmontools-openrc
-  version: "7.5"
-  origversion: 7.5-r0
-  status: newest
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools
-  visiblename: smartmontools
-  version: "7.5"
-  origversion: 7.5-r0
-  status: newest
-  summary: Control and monitor S.M.A.R.T. enabled hard drives
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-dbg
-  visiblename: smartmontools-dbg
-  version: "7.5"
-  origversion: 7.5-r0
-  status: newest
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-doc
-  visiblename: smartmontools-doc
-  version: "7.5"
-  origversion: 7.5-r0
-  status: newest
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-openrc
-  visiblename: smartmontools-openrc
-  version: "7.5"
-  origversion: 7.5-r0
-  status: newest
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: deepin_25
-  subrepo: main
-  srcname: smartmontools
-  binnames:
-    - smartmontools
-  visiblename: smartmontools
-  version: "7.5"
-  origversion: 7.5-2deepin1
-  status: newest
-  maintainers:
-    - onlyjob@debian.org
-    - contact@marsmenschen.com
-    - jmtd@debian.org
-- repo: alpine_edge
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools
-  visiblename: smartmontools
-  version: "7.5"
-  origversion: 7.5-r0
-  status: newest
-  summary: Control and monitor S.M.A.R.T. enabled hard drives
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_edge
-  subrepo: main
-  srcname: smartmontools
-  binname: smartmontools-dbg
-  visiblename: smartmontools-dbg
-  version: "7.5"
-  origversion: 7.5-r0
-  status: newest
-  summary: Control and monitor S.M.A.R.T. enabled hard drives (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
 - repo: alpine_edge
   subrepo: main
   srcname: smartmontools
@@ -676,28 +787,6 @@
     - GPLv2+
   categories:
     - System Environment/Base
-- repo: amazon_2
-  srcname: smartmontools
-  visiblename: smartmontools
-  version: "6.5"
-  origversion: 1:6.5-1.amzn2
-  status: legacy
-  summary: Tools for monitoring SMART capable hard disks
-  licenses:
-    - GPLv2+
-  categories:
-    - System Environment/Base
-- repo: amazon_2
-  srcname: smartmontools
-  visiblename: smartmontools
-  version: "7.0"
-  origversion: 1:7.0-2.amzn2
-  status: outdated
-  summary: Tools for monitoring SMART capable hard disks
-  licenses:
-    - GPLv2+
-  categories:
-    - System Environment/Base
 - repo: aosc
   srcname: app-admin/smartmontools
   binname: smartmontools
@@ -749,55 +838,32 @@
     - onlyjob@debian.org
     - contact@marsmenschen.com
     - jmtd@debian.org
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: apertis_v2026
+  subrepo: v2026/target
   srcname: smartmontools
   binnames:
     - smartmontools
   visiblename: smartmontools
-  version: "7.2"
-  origversion: 7.2-1
+  version: "7.4"
+  origversion: 7.4-3+apertis0
   status: outdated
   maintainers:
     - onlyjob@debian.org
     - contact@marsmenschen.com
     - jmtd@debian.org
-  categories:
-    - utils
-- repo: arch
-  subrepo: extra
+- repo: apertis_v2027
+  subrepo: v2027dev1/target
   srcname: smartmontools
-  binname: smartmontools
+  binnames:
+    - smartmontools
   visiblename: smartmontools
-  version: "7.5"
-  origversion: 7.5-2
-  status: newest
-  summary: Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
-  licenses:
-    - GPL-2.0-or-later
-- repo: artix
-  subrepo: world
-  srcname: smartmontools
-  binname: smartmontools
-  visiblename: smartmontools
-  version: "7.5"
-  origversion: 7.5-2
-  status: newest
-  summary: Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
-  licenses:
-    - GPL-2.0-or-later
-- repo: centos_7
-  subrepo: os
-  srcname: smartmontools
-  visiblename: smartmontools
-  version: "7.0"
-  origversion: 1:7.0-2.el7
+  version: "7.4"
+  origversion: 7.4-3+apertis0
   status: outdated
-  summary: Tools for monitoring SMART capable hard disks
-  licenses:
-    - GPLv2+
-  categories:
-    - System Environment/Base
+  maintainers:
+    - onlyjob@debian.org
+    - contact@marsmenschen.com
+    - jmtd@debian.org
 - repo: centos_8
   subrepo: BaseOS
   srcname: smartmontools
@@ -963,6 +1029,22 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
+- repo: eurolinux_9
+  subrepo: baseos
+  srcname: smartmontools
+  binnames:
+    - smartmontools
+    - smartmontools-debuginfo
+    - smartmontools-debugsource
+  visiblename: smartmontools
+  version: "7.2"
+  origversion: 1:7.2-6.el9
+  status: outdated
+  summary: Tools for monitoring SMART capable hard disks
+  licenses:
+    - GPLv2+
+  categories:
+    - Unspecified
 - repo: centos_stream_10
   subrepo: BaseOS
   srcname: smartmontools
@@ -1119,34 +1201,6 @@
   summary: Utilities to control and monitor S.M.A.R.T. hard drives
   maintainers:
     - jue@crux.nu
-- repo: cygwin
-  srcname: smartmontools
-  binname: smartmontools
-  visiblename: smartmontools
-  version: "7.5"
-  origversion: 7.5-1
-  status: newest
-  summary: Control and monitor storage systems using SMART
-  maintainers:
-    - christian.franke@cygwin
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Utils
-- repo: cygwin
-  srcname: smartmontools
-  binname: smartmontools-debuginfo
-  visiblename: smartmontools-debuginfo
-  version: "7.5"
-  origversion: 7.5-1
-  status: newest
-  summary: Control and monitor storage systems using SMART
-  maintainers:
-    - christian.franke@cygwin
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Debug
 - repo: debian_11
   subrepo: bullseye/main
   srcname: smartmontools
@@ -1267,6 +1321,34 @@
     - jmtd@debian.org
   categories:
     - misc
+- repo: deepin_25
+  subrepo: main
+  srcname: smartmontools
+  binnames:
+    - smartmontools
+  visiblename: smartmontools
+  version: "7.5"
+  origversion: 7.5-2deepin1
+  status: newest
+  maintainers:
+    - onlyjob@debian.org
+    - contact@marsmenschen.com
+    - jmtd@debian.org
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: smartmontools
+  binnames:
+    - smartmontools
+  visiblename: smartmontools
+  version: "7.2"
+  origversion: 7.2-1
+  status: outdated
+  maintainers:
+    - onlyjob@debian.org
+    - contact@marsmenschen.com
+    - jmtd@debian.org
+  categories:
+    - utils
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: smartmontools
@@ -1282,6 +1364,30 @@
     - jmtd@debian.org
   categories:
     - utils
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: smartmontools
+  visiblename: smartmontools
+  version: "6.6"
+  origversion: 1:6.6-3.el8
+  status: legacy
+  summary: Tools for monitoring SMART capable hard disks
+  licenses:
+    - GPLv2+
+  categories:
+    - System Environment/Base
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: smartmontools
+  visiblename: smartmontools
+  version: "7.1"
+  origversion: 1:7.1-1.el8
+  status: outdated
+  summary: Tools for monitoring SMART capable hard disks
+  licenses:
+    - GPLv2+
+  categories:
+    - System Environment/Base
 - repo: eurolinux_9
   subrepo: appstream
   srcname: smartmontools
@@ -1308,54 +1414,6 @@
   visiblename: smartmontools
   version: "7.2"
   origversion: 1:7.2-5.el9
-  status: outdated
-  summary: Tools for monitoring SMART capable hard disks
-  licenses:
-    - GPLv2+
-  categories:
-    - Unspecified
-- repo: eurolinux_9
-  subrepo: baseos
-  srcname: smartmontools
-  binnames:
-    - smartmontools
-    - smartmontools-debuginfo
-    - smartmontools-debugsource
-  visiblename: smartmontools
-  version: "7.2"
-  origversion: 1:7.2-6.el9
-  status: outdated
-  summary: Tools for monitoring SMART capable hard disks
-  licenses:
-    - GPLv2+
-  categories:
-    - Unspecified
-- repo: eurolinux_9
-  subrepo: baseos
-  srcname: smartmontools
-  binnames:
-    - smartmontools
-    - smartmontools-debuginfo
-    - smartmontools-debugsource
-  visiblename: smartmontools
-  version: "7.2"
-  origversion: 1:7.2-7.el9
-  status: outdated
-  summary: Tools for monitoring SMART capable hard disks
-  licenses:
-    - GPLv2+
-  categories:
-    - Unspecified
-- repo: eurolinux_9
-  subrepo: baseos
-  srcname: smartmontools
-  binnames:
-    - smartmontools
-    - smartmontools-debuginfo
-    - smartmontools-debugsource
-  visiblename: smartmontools
-  version: "7.2"
-  origversion: 1:7.2-9.el9
   status: outdated
   summary: Tools for monitoring SMART capable hard disks
   licenses:
@@ -1517,6 +1575,21 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
+- repo: ubuntu_18_04_backports
+  subrepo: bionic-backports/main
+  srcname: smartmontools
+  binnames:
+    - smartmontools
+  visiblename: smartmontools
+  version: "7.0"
+  origversion: 7.0-0ubuntu1~ubuntu18.04.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - contact@marsmenschen.com
+    - jmtd@debian.org
+  categories:
+    - utils
 - repo: fedora_43
   subrepo: updates
   srcname: smartmontools
@@ -1632,18 +1705,6 @@
     - GPL-2
   categories:
     - sys-apps
-- repo: nix_unstable
-  srcname: smartmontools
-  visiblename: smartmontools
-  version: "7.5"
-  origversion: null
-  status: newest
-  summary: Tools for monitoring the health of hard drives
-  maintainers:
-    - me@slukjanov.name
-    - sam@samasaur.com
-  licenses:
-    - GPL-2.0-or-later
 - repo: gentoo
   srcname: sys-apps/smartmontools
   visiblename: sys-apps/smartmontools
@@ -1905,6 +1966,18 @@
     - sam@samasaur.com
   licenses:
     - GPL-2.0-or-later
+- repo: nix_unstable
+  srcname: smartmontools
+  visiblename: smartmontools
+  version: "7.5"
+  origversion: null
+  status: newest
+  summary: Tools for monitoring the health of hard drives
+  maintainers:
+    - me@slukjanov.name
+    - sam@samasaur.com
+  licenses:
+    - GPL-2.0-or-later
 - repo: openbsd
   srcname: sysutils/smartmontools
   binname: smartmontools
@@ -1917,28 +1990,6 @@
     - horrad@horrad.de
   categories:
     - sysutils
-- repo: openeuler_20_03_lts_sp3
-  srcname: smartmontools
-  visiblename: smartmontools
-  version: "7.1"
-  origversion: 1:7.1-1.oe1
-  status: outdated
-  summary: S.M.A.R.T. utility toolset
-  licenses:
-    - GPLv2+
-  categories:
-    - Unspecified
-- repo: openeuler_20_03_lts_sp4
-  srcname: smartmontools
-  visiblename: smartmontools
-  version: "7.1"
-  origversion: 1:7.1-1.oe2003sp4
-  status: outdated
-  summary: S.M.A.R.T. utility toolset
-  licenses:
-    - GPLv2+
-  categories:
-    - Unspecified
 - repo: openeuler_22_03_lts_sp1
   srcname: smartmontools
   binnames:
@@ -1955,6 +2006,18 @@
     - GPLv2+
   categories:
     - Unspecified
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/smartmontools
+  binname: smartd
+  visiblename: smartd
+  version: "7.5"
+  origversion: 7.5-r1
+  status: newest
+  maintainers:
+    - m.storchak@gmail.com
+  categories:
+    - utils
 - repo: openeuler_22_03_lts_sp3
   srcname: smartmontools
   binnames:
@@ -2185,16 +2248,6 @@
     - GPLv2+
   categories:
     - System/Kernel and hardware
-- repo: starkos
-  subrepo: main
-  srcname: smartmontools
-  visiblename: smartmontools
-  version: "7.5"
-  origversion: 7.5-1
-  status: newest
-  summary: Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
-  maintainers:
-    - starkos@disroot.org
 - repo: openmandriva_cooker
   subrepo: main/release
   srcname: smartmontools
@@ -2299,12 +2352,6 @@
     - m.storchak@gmail.com
   categories:
     - utils
-- repo: pld
-  srcname: smartmontools
-  visiblename: smartmontools
-  version: "7.5"
-  origversion: 7.5-2
-  status: newest
 - repo: openwrt_23_05_x86_64
   subrepo: packages
   srcname: feeds/packages/utils/smartmontools
@@ -2329,16 +2376,19 @@
     - m.storchak@gmail.com
   categories:
     - utils
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/smartmontools
-  binname: smartd
-  visiblename: smartd
-  version: "7.5"
-  origversion: 7.5-r1
-  status: newest
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: smartmontools
+  binnames:
+    - smartmontools
+  visiblename: smartmontools
+  version: "7.3"
+  origversion: 7.3-1
+  status: outdated
   maintainers:
-    - m.storchak@gmail.com
+    - onlyjob@debian.org
+    - contact@marsmenschen.com
+    - jmtd@debian.org
   categories:
     - utils
 - repo: openwrt_24_10_x86_64
@@ -2489,6 +2539,12 @@
     - pkgsrc-users@netbsd.org
   categories:
     - sysutils
+- repo: pld
+  srcname: smartmontools
+  visiblename: smartmontools
+  version: "7.5"
+  origversion: 7.5-2
+  status: newest
 - repo: ptxdist
   srcname: smartmontools
   visiblename: smartmontools
@@ -2521,51 +2577,6 @@
   version: "7.4"
   origversion: 7.4-3
   status: outdated
-  maintainers:
-    - onlyjob@debian.org
-    - contact@marsmenschen.com
-    - jmtd@debian.org
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: smartmontools
-  binnames:
-    - smartmontools
-  visiblename: smartmontools
-  version: "7.3"
-  origversion: 7.3-1
-  status: outdated
-  maintainers:
-    - onlyjob@debian.org
-    - contact@marsmenschen.com
-    - jmtd@debian.org
-  categories:
-    - utils
-- repo: raspbian_stable
-  subrepo: main
-  srcname: smartmontools
-  binnames:
-    - smartmontools
-  visiblename: smartmontools
-  version: "7.4"
-  origversion: 7.4-3
-  status: outdated
-  maintainers:
-    - onlyjob@debian.org
-    - contact@marsmenschen.com
-    - jmtd@debian.org
-  categories:
-    - utils
-- repo: raspbian_testing
-  subrepo: main
-  srcname: smartmontools
-  binnames:
-    - smartmontools
-  visiblename: smartmontools
-  version: "7.5"
-  origversion: 7.5-2
-  status: newest
   maintainers:
     - onlyjob@debian.org
     - contact@marsmenschen.com
@@ -2711,6 +2722,15 @@
   status: newest
   maintainers:
     - volkerdi@slackware.com
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: smartmontools
+  visiblename: smartmontools
+  version: "7.2"
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
 - repo: solus
   srcname: smartmontools
   binname: smartmontools
@@ -2785,6 +2805,16 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: starkos
+  subrepo: main
+  srcname: smartmontools
+  visiblename: smartmontools
+  version: "7.5"
+  origversion: 7.5-1
+  status: newest
+  summary: Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
+  maintainers:
+    - starkos@disroot.org
 - repo: t2
   srcname: smartmontools
   visiblename: smartmontools
@@ -2837,21 +2867,6 @@
   categories:
     - utils
 - repo: ubuntu_16_04
-  subrepo: xenial/main
-  srcname: smartmontools
-  binnames:
-    - smartmontools
-  visiblename: smartmontools
-  version: 6.4+svn4214
-  origversion: 6.4+svn4214-1
-  status: outdated
-  maintainers:
-    - iuculano@debian.org
-    - contact@marsmenschen.com
-    - jmtd@debian.org
-  categories:
-    - utils
-- repo: ubuntu_16_04
   subrepo: xenial-updates/main
   srcname: smartmontools
   binnames:
@@ -2866,14 +2881,14 @@
     - jmtd@debian.org
   categories:
     - utils
-- repo: ubuntu_18_04
-  subrepo: bionic/main
+- repo: ubuntu_16_04
+  subrepo: xenial/main
   srcname: smartmontools
   binnames:
     - smartmontools
   visiblename: smartmontools
-  version: 6.5+svn4324
-  origversion: 6.5+svn4324-1
+  version: 6.4+svn4214
+  origversion: 6.4+svn4214-1
   status: outdated
   maintainers:
     - iuculano@debian.org
@@ -2896,47 +2911,17 @@
     - jmtd@debian.org
   categories:
     - utils
-- repo: ubuntu_18_04_backports
-  subrepo: bionic-backports/main
+- repo: ubuntu_18_04
+  subrepo: bionic/main
   srcname: smartmontools
   binnames:
     - smartmontools
   visiblename: smartmontools
-  version: "7.0"
-  origversion: 7.0-0ubuntu1~ubuntu18.04.1
+  version: 6.5+svn4324
+  origversion: 6.5+svn4324-1
   status: outdated
   maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - contact@marsmenschen.com
-    - jmtd@debian.org
-  categories:
-    - utils
-- repo: ubuntu_20_04
-  subrepo: focal/main
-  srcname: smartmontools
-  binnames:
-    - smartmontools
-  visiblename: smartmontools
-  version: "7.1"
-  origversion: 7.1-1build1
-  status: outdated
-  maintainers:
-    - onlyjob@debian.org
-    - contact@marsmenschen.com
-    - jmtd@debian.org
-  categories:
-    - utils
-- repo: ubuntu_22_04
-  subrepo: jammy/main
-  srcname: smartmontools
-  binnames:
-    - smartmontools
-  visiblename: smartmontools
-  version: "7.2"
-  origversion: 7.2-1build2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
+    - iuculano@debian.org
     - contact@marsmenschen.com
     - jmtd@debian.org
   categories:
@@ -2949,6 +2934,21 @@
   visiblename: smartmontools
   version: "7.2"
   origversion: 7.2-1ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - contact@marsmenschen.com
+    - jmtd@debian.org
+  categories:
+    - utils
+- repo: ubuntu_22_04
+  subrepo: jammy/main
+  srcname: smartmontools
+  binnames:
+    - smartmontools
+  visiblename: smartmontools
+  version: "7.2"
+  origversion: 7.2-1build2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com

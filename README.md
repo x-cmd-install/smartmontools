@@ -14,14 +14,14 @@ x install smartmontools
 
 ## Code insight
 
-Total: **81,384** lines of code across **130** files in the top 5 languages.
+Total: **81,453** lines of code across **130** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 42,804 | 5,336 | 5,861 | 44 |
-| CHeader | 15,408 | 4,537 | 2,143 | 54 |
+| Cpp | 42,863 | 5,338 | 5,868 | 44 |
+| CHeader | 15,414 | 4,538 | 2,146 | 54 |
 | C | 8,802 | 1,492 | 1,027 | 8 |
-| Autoconf | 7,693 | 398 | 303 | 16 |
+| Autoconf | 7,697 | 398 | 303 | 16 |
 | VisualStudioProject | 3,945 | 0 | 0 | 8 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `RELEASE_7_5` (2025-05-12)
-- **Last commit**: 2026-11-26
+- **Last commit**: 2026-11-27
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 1,503 · **Forks**: 311 · **Open issues**: 427 · **Contributors**: 89
+- **Stars**: 1,505 · **Forks**: 311 · **Open issues**: 428 · **Contributors**: 90
 
 ## Totals (cumulative)
 
-- **Releases**: 10 · **Merged PRs**: 105 · **Open PRs**: 28 · **Closed issues**: 347 · **Open issues**: 80 · **Commits**: 6277
+- **Releases**: 10 · **Merged PRs**: 106 · **Open PRs**: 27 · **Closed issues**: 348 · **Open issues**: 80 · **Commits**: 6281
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 5 | 9 | 4 | 8 | 25 |
-| last60d | 2026-09-28 | 0 | 9 | 19 | 4 | 17 | 44 |
-| 90d | 2026-08-29 | 0 | 10 | 22 | 13 | 21 | 74 |
-| last180d | 2026-05-31 | 0 | 21 | 22 | 28 | 27 | 181 |
-| 360d | 2025-12-02 | 0 | 54 | 23 | 100 | 44 | 313 |
-| last720d | 2024-12-07 | 1 | 105 | 23 | 167 | 52 | 693 |
+| 30d | 2026-10-29 | 0 | 6 | 8 | 4 | 9 | 29 |
+| last60d | 2026-09-29 | 0 | 10 | 18 | 4 | 18 | 48 |
+| 90d | 2026-08-30 | 0 | 11 | 21 | 13 | 22 | 78 |
+| last180d | 2026-06-01 | 0 | 22 | 21 | 28 | 28 | 185 |
+| 360d | 2025-12-03 | 0 | 54 | 22 | 100 | 45 | 317 |
+| last720d | 2024-12-08 | 1 | 106 | 22 | 167 | 53 | 697 |
 
 ## Release assets
 
@@ -79,25 +79,6 @@ Lowest-scoring checks:
 | [smartmontools-7.5.win32-setup.exe.asc](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe.asc) | 833 B | `native/win/x64` |
 | [smartmontools-7.5.win32-setup.exe.md5](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe.md5) | 68 B | `native/win/x64` |
 
-## Distribution status
-
-Reported by **229** distros on [repology.org](https://repology.org/project/smartmontools). **104** are ✅ on the latest upstream release, **112** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `7.5` | ✅ latest |
-| Debian 14 | `7.5` | ✅ latest |
-| Debian 13 | `7.4` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `7.5` | ✅ latest |
-| Ubuntu 24.04 LTS | `7.4` | ⚠️ outdated |
-| Arch | `7.5` | ✅ latest |
-| Homebrew | `7.5` | ✅ latest |
-| Fedora rawhide | `7.5` | ✅ latest |
-| Nix unstable | `7.5` | ✅ latest |
-| Void | `7.5` | ✅ latest |
-| Alpine edge | `7.5` | ✅ latest |
-| openSUSE Tumbleweed | `7.5` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for smartmontools lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `smartmontools` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -107,4 +88,4 @@ Install metadata for smartmontools lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T07:41:50Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T07:09:24Z._

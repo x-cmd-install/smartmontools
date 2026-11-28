@@ -14,14 +14,14 @@ x install smartmontools
 
 ## 代码洞察
 
-合计: **81,384** 行代码（覆盖前 5 种语言、共 **130** 个文件）。
+合计: **81,453** 行代码（覆盖前 5 种语言、共 **130** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Cpp | 42,804 | 5,336 | 5,861 | 44 |
-| CHeader | 15,408 | 4,537 | 2,143 | 54 |
+| Cpp | 42,863 | 5,338 | 5,868 | 44 |
+| CHeader | 15,414 | 4,538 | 2,146 | 54 |
 | C | 8,802 | 1,492 | 1,027 | 8 |
-| Autoconf | 7,693 | 398 | 303 | 16 |
+| Autoconf | 7,697 | 398 | 303 | 16 |
 | VisualStudioProject | 3,945 | 0 | 0 | 8 |
 
 ## OpenSSF Scorecard 评分
@@ -43,27 +43,27 @@ x install smartmontools
 ## 发布
 
 - **最新版本**: `RELEASE_7_5` (2025-05-12)
-- **最近提交**: 2026-11-26
+- **最近提交**: 2026-11-27
 - **Release 含资产**: 9 个
 
 ## 流行度
 
-- **Star**: 1,503 · **Fork**: 311 · **开放 issue**: 427 · **贡献者**: 89
+- **Star**: 1,505 · **Fork**: 311 · **开放 issue**: 428 · **贡献者**: 90
 
 ## 累计统计
 
-- **发布数**: 10 · **已合并 PR**: 105 · **开放 PR**: 28 · **已关闭 issue**: 347 · **开放 issue**: 80 · **提交数**: 6277
+- **发布数**: 10 · **已合并 PR**: 106 · **开放 PR**: 27 · **已关闭 issue**: 348 · **开放 issue**: 80 · **提交数**: 6281
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 5 | 9 | 4 | 8 | 25 |
-| last60d | 2026-09-28 | 0 | 9 | 19 | 4 | 17 | 44 |
-| 90d | 2026-08-29 | 0 | 10 | 22 | 13 | 21 | 74 |
-| last180d | 2026-05-31 | 0 | 21 | 22 | 28 | 27 | 181 |
-| 360d | 2025-12-02 | 0 | 54 | 23 | 100 | 44 | 313 |
-| last720d | 2024-12-07 | 1 | 105 | 23 | 167 | 52 | 693 |
+| 30d | 2026-10-29 | 0 | 6 | 8 | 4 | 9 | 29 |
+| last60d | 2026-09-29 | 0 | 10 | 18 | 4 | 18 | 48 |
+| 90d | 2026-08-30 | 0 | 11 | 21 | 13 | 22 | 78 |
+| last180d | 2026-06-01 | 0 | 22 | 21 | 28 | 28 | 185 |
+| 360d | 2025-12-03 | 0 | 54 | 22 | 100 | 45 | 317 |
+| last720d | 2024-12-08 | 1 | 106 | 22 | 167 | 53 | 697 |
 
 ## Release 资产
 
@@ -79,25 +79,6 @@ x install smartmontools
 | [smartmontools-7.5.win32-setup.exe.asc](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe.asc) | 833 B | `native/win/x64` |
 | [smartmontools-7.5.win32-setup.exe.md5](https://github.com/smartmontools/smartmontools/releases/download/RELEASE_7_5/smartmontools-7.5.win32-setup.exe.md5) | 68 B | `native/win/x64` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/smartmontools) 上共有 **229** 个发行版报告此项目。**104** 个 ✅ 已是最新上游版本，**112** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `7.5` | ✅ latest |
-| Debian 14 | `7.5` | ✅ latest |
-| Debian 13 | `7.4` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `7.5` | ✅ latest |
-| Ubuntu 24.04 LTS | `7.4` | ⚠️ outdated |
-| Arch | `7.5` | ✅ latest |
-| Homebrew | `7.5` | ✅ latest |
-| Fedora rawhide | `7.5` | ✅ latest |
-| Nix unstable | `7.5` | ✅ latest |
-| Void | `7.5` | ✅ latest |
-| Alpine edge | `7.5` | ✅ latest |
-| openSUSE Tumbleweed | `7.5` | ✅ latest |
-
 ## 改进这些数据
 
 smartmontools 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `smartmontools` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -107,4 +88,4 @@ smartmontools 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/ins
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261127.yml` · 2026-11-27T07:41:51Z._
+_数据快照: `data/card/261128.yml` · 2026-11-28T07:09:24Z._
